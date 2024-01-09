@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: #827b9f; */
+    background-image: url("bg_img.jpg");
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.game{
+    height: 60vmin;
+    width:  60vmin;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4vmin;
+      
+}
+
+.box{
+    height: 18vmin;
+    width:  18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    font-size: 6vmin;
+    color: #832818;
+    cursor: pointer;
+    background-color: #EAECCC;
+}
+
+h1{
+    margin-top: -0.4rem;
+    color: #5cfaff;
+    font-size: 40px;
+    text-shadow: 0px 0px 10px #055659,
+                 0px 0px 40px #000000;
+    /* text-decoration: underline dotted chocolate; */
+    font-size: 3.5rem;
+}
+
+
+
+
+/* #reset_btn{
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #1B1B24;
+    color: whitesmoke;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0.1, 0, 0.1, 0.5);
+    cursor: pointer;
+} */
+
+#new-btn,#reset_btn {
+    padding: 0.8rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: whitesmoke;
+    background-color: #1B1B24;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+#new-btn:hover {
+    background-color: #202120;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-1.5px);
+  }
+
+#reset_btn:hover {
+    background-color: #373938;
+    box-shadow: 0px 15px 20px rgba(208, 234, 223, 0.4);
+    color: #fff;
+    transform: translateY(-1.5px);
+  }  
+#reset_btn:active {
+    transform: translateY(-5px);
+  }
+
+#new-btn:active {
+    transform: translateY(-5px);
+  }  
+
+#message{
+    color: #000000;
+    font-size: 8vmin;
+  }
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+
+  }
+
+.hide {
+    display: none;
+}  
+
+  
+
+/* read about vmin, 1rem = 16px ,em, flex-wrap */ 
